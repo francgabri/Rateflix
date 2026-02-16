@@ -1,11 +1,50 @@
-
-.header{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: rgb(32, 2, 2);
-    color: brown;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+body{
+    height: 200vh;
+}
+
+header{
+    padding: 15px 0; 
+    background-color: rgb(32, 2, 2);
+} 
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #8d0909;
+  }
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+
+  .nav a:hover {
+    color: #fff;
+  }
+
+
+  
 .main{
     margin: 0px;
     padding: 0px;
@@ -31,3 +70,11 @@
     background-color: black;
     color: brown;
 }
+
+@media (max-width: 768px) {
+    .nav ul {
+      display: none;
+    }
+  
+  
+  }
