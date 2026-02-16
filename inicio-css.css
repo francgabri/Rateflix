@@ -1,0 +1,33 @@
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(32, 2, 2);
+    color: brown;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image: url("https://picsum.photos/1000/1000?random=4");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+  }
+  h1{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  h3{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+.footer{
+    background-color: black;
+    color: brown;
+}
