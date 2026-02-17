@@ -23,8 +23,11 @@ header{
 }
 
 .logo h1 {
+    display: inline;
     color: #8d0909;
+
   }
+
 
   .nav ul {
     list-style: none;
@@ -46,15 +49,35 @@ header{
 
   
 .main{
+  position: static;
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-image: url("https://picsum.photos/1000/1000?random=4");
+    background-image: url("https://pbs.twimg.com/media/FlkW1vaX0AAIEkL.png");
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh; 
+    text-align: center;
   }
+  
+  .texto-main{
+    
+   
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: #fff;
+    b{
+      color: red;
+    }
+  }
+   
+  input{
+    width: 600px;
+    
+    
+  }
+
   h1{
     margin: 0px;
     padding: 0px;
