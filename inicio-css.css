@@ -74,10 +74,20 @@ header{
    
   input{
     width: 600px;
-    
-    
+    color: #fff;
+    background-color: rgb(66, 61, 61);
+  }
+  button{
+    background-color: red;
+    color: #fff;
+  }
+  p{
+    color: #fff;
   }
 
+  .fotos{
+    color: #fff;
+  }
   h1{
     margin: 0px;
     padding: 0px;
