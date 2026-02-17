@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 200vh;
+    height: 150vh;
 }
 
 header{
@@ -59,10 +59,10 @@ header{
     background-repeat: no-repeat; 
     height: 100vh; 
     text-align: center;
+    justify-content: center;
   }
   
   .texto-main{
-    
    
     padding-top: 150px;
     padding-bottom: 50px;
@@ -71,23 +71,58 @@ header{
       color: red;
     }
   }
-   
-  input{
-    width: 600px;
-    color: #fff;
-    background-color: rgb(66, 61, 61);
+  form{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  } 
+  form input{
+   font-size: 18px;
+   flex: 1;
+   border: 0;
+   outline: 0;
+   background-color: transparent;
   }
-  button{
+  form i{
+    background-color:transparent;
+    color: #000000;
+    border: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  form button{
+    margin-right:10px ;
     background-color: red;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 14px;
+    cursor: pointer;
     color: #fff;
   }
   p{
     color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .fotos{
+
+    display: block;
+    
     color: #fff;
-  }
+}
+img{
+  border-radius: 15px;
+  gap: 20px;
+}
+
+
   h1{
     margin: 0px;
     padding: 0px;
@@ -99,10 +134,30 @@ header{
     border: 0px;
   }
 
-.footer{
-    background-color: black;
-    color: brown;
+  .footer{
+    background-color: #000;
+    color: #8d0909;
+
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;   
+    align-items: center;   
+    text-align: center;       
+    gap: 12px;
 }
+
+.footer h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #aaa;
+    max-width: 600px;
+}
+
 
 @media (max-width: 768px) {
     .nav ul {
