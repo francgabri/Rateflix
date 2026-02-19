@@ -46,14 +46,12 @@ header{
     color: #fff;
   }
 
-
-  
 .main{
   position: static;
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-image: url("https://pbs.twimg.com/media/FlkW1vaX0AAIEkL.png");
+    background-image: url("https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80");
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
@@ -138,7 +136,8 @@ img{
     background-color: #000;
     color: #8d0909;
 
-    padding: 40px 20px;
+    padding: 100px 10px;
+    padding-bottom: 10px;
 
     display: flex;
     flex-direction: column;   
