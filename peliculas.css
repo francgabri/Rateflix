@@ -7,6 +7,10 @@
 
 body{
     height: 150vh;
+    /*
+    background-image: url(/IMAGENES/fondo\ peliculas.jpg);
+    background-size: cover;
+    */
 }
 
 header{
@@ -53,12 +57,7 @@ header{
     padding: 0px;
     border: 0px;
   }
-  h3{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-  }
-  
+
   /* Categorias */
   .categorias{
     width: 300px;
