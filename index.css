@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 150vh;
+}
+
+header{
+    padding: 15px 0; 
+    background-color: rgb(32, 2, 2);
+} 
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    display: inline;
+    color: #8d0909;
+
+  }
+
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+
+  .nav a:hover {
+    color: #fff;
+  }
+
+.main{
+  position: static;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image: url("https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .texto-main{
+   
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: #fff;
+    b{
+      color: red;
+    }
+  }
+  form{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  } 
+  form input{
+   font-size: 18px;
+   flex: 1;
+   border: 0;
+   outline: 0;
+   background-color: transparent;
+  }
+  form i{
+    background-color:transparent;
+    color: #000000;
+    border: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  form button{
+    margin-right:10px ;
+    background-color: red;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: #fff;
+  }
+  p{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .fotos{
+
+    display: block;
+    
+    color: #fff;
+}
+img{
+  border-radius: 15px;
+  gap: 20px;
+}
+
+
+  h1{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  h3{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .footer{
+    background-color: #000;
+    color: #8d0909;
+
+    padding: 100px 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;   
+    align-items: center;   
+    text-align: center;       
+    gap: 12px;
+}
+
+.footer h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #aaa;
+    max-width: 600px;
+}
+
+
+@media (max-width: 768px) {
+    .nav ul {
+      display: none;
+    }
+  
+  
+  }
