@@ -65,13 +65,13 @@ header{
     padding: 5px;
   }
 
-
+  /*Footer*/
 
   .footer{
     background-color: #000;
     color: #8d0909;
 
-    padding: 100px 20px;
+    padding: 100px 10px;
     padding-bottom: 10px;
 
     display: flex;
