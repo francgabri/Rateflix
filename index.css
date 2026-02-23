@@ -12,6 +12,8 @@ body{
 header{
     padding: 15px 0; 
     background-color: rgb(32, 2, 2);
+    position: fixed;
+    width: 100%;
 } 
 .container{
     width: 90%;
@@ -136,7 +138,7 @@ img{
     background-color: #000;
     color: #8d0909;
 
-    padding: 100px 10px;
+    padding: 30px 10px;
     padding-bottom: 10px;
 
     display: flex;
@@ -144,6 +146,8 @@ img{
     align-items: center;   
     text-align: center;       
     gap: 12px;
+
+    
 }
 
 .footer h3{
