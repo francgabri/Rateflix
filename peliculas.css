@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 150vh;
+    background-image: url(https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+}
+
+p,h2{
+  color: #fff;
+  padding: 5px;
+}
+
+header{
+    padding: 15px 0; 
+    background-color: rgb(32, 2, 2);
+    position: fixed;
+    width: 100%;
+} 
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo h1 {
+    display: inline;
+    color: #8d0909;
+
+  }
+
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+
+  .nav a:hover {
+    color: #fff;
+  }
+
+  h1{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  /*Mi lista*/
+  #cartel {
+    display: none;
+    position: fixed;     
+    right: 0%;
+    background: black;
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+  }
+  
+  #cartel:target {
+    display: block;
+  }
+
+  /*Categorias*/
+  .categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .categorias:hover {
+    color: rgb(226, 32, 32);
+    transition: 0.3s;
+  }
+ 
+  /*Tarjetas de peliculas*/
+  .flex-box-peliculas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 100px;
+   
+  }
+
+  .item{
+      background: linear-gradient(to bottom, #000000, #434343);
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 4px 4px 10px black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  img{
+    width: 100%;
+    padding: 5px;
+  }
+
+
+  /*Footer*/
+
+.footer{
+    background-color: #000;
+    color: #8d0909;
+
+    padding: 15px 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;   
+    align-items: center;   
+    text-align: center;       
+    gap: 12px;
+
+}
+
+.footer h3{
+    font-size: 22px;
+
+}
+
+.footer p{
+    font-size: 14px;
+    color: #aaa;
+    max-width: 600px;
+}
+
