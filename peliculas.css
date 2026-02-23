@@ -7,10 +7,13 @@
 
 body{
     height: 150vh;
-    /*
-    background-image: url(/IMAGENES/fondo\ peliculas.jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80);
     background-size: cover;
-    */
+}
+
+p,h2,img{
+  color: #fff;
+  padding: 5px;
 }
 
 header{
@@ -59,23 +62,41 @@ header{
     padding: 0px;
     border: 0px;
   }
+
+  /*Categorias*/
+  .categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .categorias:hover {
+    color: rgb(226, 32, 32);
+    transition: 0.3s;
+  }
  
-  /*listado de peliculas*/
+  /*Tarjetas de peliculas*/
   .flex-box-peliculas{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 100px;
    
   }
 
   .item{
-      background-color: white;
+      background-color: rgb(77, 77, 77);
       width: 300px;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
   }
   
   img{
