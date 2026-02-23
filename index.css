@@ -71,6 +71,24 @@ header{
       color: red;
     }
   }
+
+   /*Mi lista*/
+   #cartel {
+    display: none;
+    position: fixed;     
+    right: 0%;
+    background: black;
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+  }
+  
+  #cartel:target {
+    display: block;
+  }
+
+  /*Formulario de busqueda*/
+
   form{
     background-color: #fff;
     width: 90%;
@@ -134,11 +152,12 @@ img{
     border: 0px;
   }
 
+
   .footer{
     background-color: #000;
     color: #8d0909;
 
-    padding: 30px 10px;
+    padding: 15px 10px;
     padding-bottom: 10px;
 
     display: flex;
@@ -147,12 +166,11 @@ img{
     text-align: center;       
     gap: 12px;
 
-    
 }
 
 .footer h3{
     font-size: 22px;
-    margin-bottom: 10px;
+
 }
 
 .footer p{
@@ -160,6 +178,7 @@ img{
     color: #aaa;
     max-width: 600px;
 }
+
 
 
 @media (max-width: 768px) {

@@ -11,7 +11,7 @@ body{
     background-size: cover;
 }
 
-p,h2,img{
+p,h2{
   color: #fff;
   padding: 5px;
 }
@@ -63,6 +63,21 @@ header{
     border: 0px;
   }
 
+  /*Mi lista*/
+  #cartel {
+    display: none;
+    position: fixed;     
+    right: 0%;
+    background: black;
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+  }
+  
+  #cartel:target {
+    display: block;
+  }
+
   /*Categorias*/
   .categorias{
     display: flex;
@@ -88,31 +103,26 @@ header{
   }
 
   .item{
-      background-color: rgb(77, 77, 77);
+      background: linear-gradient(to bottom, #000000, #434343);
       width: 300px;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
       margin-bottom: 30px;
+      box-shadow: 4px 4px 10px black;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
   }
-  
+
   img{
     width: 100%;
+    padding: 5px;
   }
-    
-
-  
-
-
-
 
 
   /*Footer*/
 
-  .footer{
+.footer{
     background-color: #000;
     color: #8d0909;
 
@@ -129,7 +139,7 @@ header{
 
 .footer h3{
     font-size: 22px;
-    margin-bottom: 10px;
+
 }
 
 .footer p{
