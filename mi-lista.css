@@ -61,7 +61,7 @@ main{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-image: url("https://th.bing.com/th/id/OIP.XYjZnlYEgCXEQA5jFe6lKwHaEK?w=240&h=180&c=7&r=0&o=7&pid=1.7&rm=3");
+    background-image: url("https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80");
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
@@ -112,7 +112,16 @@ main{
   }
 
 footer{
-  background-color: black;
-  color:white;
-  justify-content: space-between;
+  background-color: #000;
+  color: #8d0909;
+
+  padding: 15px 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;   
+  align-items: center;   
+  text-align: center;       
+  gap: 12px;
+
 }
