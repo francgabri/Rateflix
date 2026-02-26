@@ -1,139 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-header{
-    padding: 15px 0; 
-    background-color: rgb(32, 2, 2);
+*{ 
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 } 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
+header{ padding: 15px 0; background-color: rgb(32, 2, 2); } 
+.container{ width: 90%; max-width: 1200px; margin: auto; display:flex; justify-content: space-between; align-items: center; } 
+.logo h1 { display: inline; color: #8d0909; } 
+.logo h1 { display: inline; color: #8d0909; padding-right: 50px; } 
+.nav{ padding-right: 500px; } 
+.nav ul { list-style: none; display: flex; gap: 30px; } 
+.nav a { color: #aaaaaa; text-decoration: none; font-weight: 500; transition: 0.3s; } 
+.nav a:hover { color: #fff; } 
+form{ background-color: rgb(39, 33, 33); width: 25%;
+     height: 30px; border-radius: 15px; display: flex;
+      align-items: center; margin: 0 auto; 
+    } 
+form input{ font-size: 18px; flex: 1; border: 0; outline: 0; background-color: transparent; color: #b9b4b4; } 
+form i{ background-color:transparent; color: #b9b4b4; border: 0; padding-right: 10px; padding-left: 10px; } ç
+main{ position: static; 
+  margin: 0px; padding: 0px; 
+  border: 0px;
+   background-image: url("https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80"); 
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+   text-align: center; justify-content: center; } 
+.titulo{ color: #ffffff; padding:30px; } 
+h1{ margin-bottom: 20px; } 
+h3{ margin-bottom: 20px; } 
+.grid-peliculas { display: grid; padding-bottom: 10px; grid-template-columns: 200px 200px 200px 200px; justify-content: space-around; } 
+.card { background-color: #3a1515; border-radius: 12px; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  padding-bottom: 15px; } 
+.card img { width: 100%; height: 280px; object-fit: cover; } 
+.card h3 { margin: 15px; font-size: 1.1rem; } 
+.rating { margin: 0 15px; color: #ff4d4d; font-weight: bold; } 
+.rating span { color: #aaa; font-weight: normal; margin-left: 5px; } 
+.card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+footer{ background-color: #000; color: #8d0909; padding: 15px 10px; 
+  padding-bottom: 10px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px; }
 
-.logo h1 {
-    display: inline;
-    color: #8d0909;
-
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 15px;
   }
 
-  
-.logo h1 {
-    display: inline;
-    color: #8d0909;
-    padding-right: 50px;
-
-  }
-
-  .nav{
-    padding-right: 550px;
-  } 
-  
-  
   .nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-  }
-  
-  .nav a {
-    color: #aaaaaa;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.3s;
+    display: none;
   }
 
-  .nav a:hover {
-    color: #fff;
+  .titulo h1 {
+    font-size: 24px;
   }
-.buscador{
-  color: #ffffff;
-}
-main{
-  position: static;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-image: url("https://img.freepik.com/foto-gratis/vista-sala-cine-3d_23-2150866053.jpg?semt=ais_hybrid&w=740&q=80");
-    background-size: cover;      
-    background-position: center; 
-    background-repeat: no-repeat; 
-    
-    text-align: center;
-    justify-content: center;
-  }
-  .titulo{
-    color: #ffffff;
-    padding:30px;
-  }
-  h1{
-    margin-bottom: 20px;
-  }
-  h3{
-    margin-bottom: 20px;
-  }
-  .grid-peliculas {
-    display: grid;
-    padding-bottom: 10px;
-    grid-template-columns: 200px 200px 200px 200px;
-    justify-content: space-around;
-    
-    
-  }
-  .card {
-    background-color: #3a1515;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding-bottom: 15px;
-  }
-  
-  .card img {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-  }
-  
-  .card h3 {
-    margin: 15px;
-    font-size: 1.1rem;
-  }
-  
-  .rating {
-    margin: 0 15px;
-    color: #ff4d4d;
-    font-weight: bold;
-  }
-  
-  .rating span {
-    color: #aaa;
-    font-weight: normal;
-    margin-left: 5px;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-  }
-
-footer{
-  background-color: #000;
-  color: #8d0909;
-
-  padding: 15px 10px;
-  padding-bottom: 10px;
-
-  display: flex;
-  flex-direction: column;   
-  align-items: center;   
-  text-align: center;       
-  gap: 12px;
-
 }

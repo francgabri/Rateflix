@@ -93,6 +93,7 @@ header{
  
   /*Tarjetas de peliculas*/
   .flex-box-peliculas{
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -103,8 +104,9 @@ header{
   }
 
   .item{
+      width: 100%;
+      max-width: 320px;
       background: linear-gradient(to bottom, #000000, #434343);
-      width: 300px;
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 30px;
@@ -114,9 +116,9 @@ header{
       justify-content: center;
   }
 
-  img{
-    width: 100%;
-    padding: 5px;
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
 
@@ -148,3 +150,17 @@ header{
     max-width: 600px;
 }
 
+
+@media (max-width: 768px) {
+  .nav ul {
+    display: none;
+  }
+
+  .item h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
